@@ -13,3 +13,12 @@ function doToArray(array, callback){
 array.forEach(callback)
 
 }
+
+
+function fact(array){
+  array.forEach((element,index) => {
+    if(element != 1){
+    return element;
+  }
+  })
+}
